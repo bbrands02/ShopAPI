@@ -46,14 +46,13 @@ components:
         id: zna02m1h4it27
       type: object
       properties:
-        id:
-          type: string
         name:
           type: string
         description:
           type: string
         price:
           type: integer
+          example: 2000
         currency:
           type: string
           enum:
@@ -61,3 +60,4 @@ components:
             - USD
           maxLength: 3
           minLength: 3
+          example: EUR
