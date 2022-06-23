@@ -37,6 +37,7 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/Product'
+      description: Create a product
 components:
   schemas:
     Product:
