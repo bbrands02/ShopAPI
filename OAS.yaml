@@ -5,11 +5,11 @@ info:
   title: ShopAPI
   version: '1.0'
 servers:
-  - url: 'http://localhost'
+  - url: 'http://localhost/api'
 paths:
   /products:
     get:
-      summary: Your GET endpoint
+      summary: GET products
       tags: []
       responses:
         '200':
@@ -23,7 +23,7 @@ paths:
       operationId: get-products
       description: Get all products
     post:
-      summary: ''
+      summary: POST product
       operationId: post-products
       responses:
         '200':
