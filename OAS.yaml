@@ -22,6 +22,16 @@ paths:
                   $ref: '#/components/schemas/Product'
       operationId: get-products
       description: Get all products
+    post:
+      summary: ''
+      operationId: post-products
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
       requestBody:
         content:
           application/json:
